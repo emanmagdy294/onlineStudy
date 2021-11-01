@@ -1,0 +1,36 @@
+.demo-inline-calendar-card {
+  width: 100%;
+  background-color: white;
+  box-shadow: -5px 2px 54px -9px rgba(75, 75, 75, 0.3) !important;
+  padding: 20px;
+  margin-left: 10px;
+  border: none !important;
+  color: rgb(1, 22, 22);
+  font-family: "Playfair Display", serif;
+  color: #0e2a4e;
+  line-height: 3rem;
+  border-radius: 10px;
+}
+
+
+.bgSection{
+  border-radius: 10px !important;
+}
+
+// media Query
+@media screen and (max-width: 575px) {
+.hr{
+  display: none;
+}
+}
+@media screen and (max-width: 1024px) {
+.hr{
+  display: none;
+}
+}
+  @media screen  and (min-width:700px) and (max-width:770px)
+{
+.demo-inline-calendar-card {
+  width: 250px;
+}
+}

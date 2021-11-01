@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+.directions{
+    float: right;
+    direction: rtl;
+    text-align: right;
+}
+.clr
+{
+    clear: both;
+    
+}
+
+/**************************/
+// FOOTER 
+
+.bgFooter{
+    background-color: #0A7AAA;
+    color: white;
+}
+.bgSection{
+    background-color: rgb(226, 225, 225);
+}
+
+.searchBox{
+    background-color: #0A7AAA;
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    width: 100%;
+}
+.card{
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.card:hover{
+    box-shadow: -5px 2px 54px -9px rgba(75, 75, 75, 0.3) !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

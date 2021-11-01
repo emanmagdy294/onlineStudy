@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,mDAAqD;CAEpE",
+    "sources": [
+        "newmeeting.component.scss"
+    ],
+    "names": [],
+    "file": "newmeeting.component.css"
+}

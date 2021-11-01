@@ -1,0 +1,121 @@
+<section class="overflow-hidden">
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <mat-card class="demo-inline-calendar-card">
+                <mat-calendar class="cycle" (selectedChange)="selected = $event"></mat-calendar>
+            </mat-card>
+            <p class="m-3"> Selected date : {{selected}}</p>
+        </div>
+        <div class="col-md-1">
+            <hr class="hr" style="background-color: rgb(13, 13, 110) ; rotate: (180deg); height: 100%; width: 1px;">
+        </div>
+        <div class="col-md-5">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <section class="mt-5">
+                        <div class="py-5 px-3 bgSection">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="p-2">
+                                        <h4>
+                                            تم الانتهاء من </h4>
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="searchBox text-center">
+                                            <h2 class="text-white font-weight-bolder py-3">0</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="directions p-2">
+                                        <h4>
+                                            لوحة تحكم الحساب
+                                        </h4>
+                                    </div>
+                                    <div class="clr"></div>
+                                    <div class="mt-3">
+                                        <div class="searchBox text-center">
+                                            <p class="font-weight-bolder">اللقاء الحالى</p>
+                                            <p>لا يوجد</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <section class="mt-5">
+                        <div class="py-5 bgSection">
+                            <div class="text-center">
+                                <h2> تنبيهاتى </h2>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    <section class="mt-5">
+                        <div class="py-5 bgSection">
+                            <div class="text-center">
+                                <h2> لقائاتى </h2>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+               
+                    <div class=" text-center">
+                            <i class="fas fa-user-circle text-center m-auto font-weight-bolder my-3"
+                                style="font-size: 60px; color: rgb(13, 13, 110) ;"></i>
+                    </div>
+                    <form class="py-5 w-75 m-auto">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4" class="directions">الاسم</label>
+                                <input type="text" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4" class="directions">البريد الالكترونى</label>
+                                <input type="email" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4" class="directions">موضوع</label>
+                                <input type="text" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4" class="directions">التليفون</label>
+                                <input type="number" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword4" class="directions">رساله</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary signup w-100"> تحديث </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <hr class="hr" style="background-color: rgb(13, 13, 110) ; rotate: (180deg); height: 100%; width: 1px;">
+        </div>
+        <div class="col-md-2">
+            <div class="list-group" id="list-tab" role="tablist">
+                <i class="fas fa-user-circle text-center font-weight-bolder my-3"
+                    style="font-size: 60px; color: rgb(13, 13, 110) ;"></i>
+                <a class="list-group-item directions list-group-item-action active" id="list-home-list"
+                    data-toggle="list" href="#list-home" role="tab" aria-controls="home">حسابى</a>
+                <a class="list-group-item directions list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">تنبيهاتى</a>
+                <a class="list-group-item directions list-group-item-action" id="list-messages-list" data-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="messages">لقائاتى</a>
+                <a class="list-group-item directions list-group-item-action" id="list-settings-list" data-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="settings">الاعدادات</a>
+            </div>
+        </div>
+    </div>
+</section>

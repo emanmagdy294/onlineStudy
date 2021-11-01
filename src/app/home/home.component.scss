@@ -1,0 +1,36 @@
+.imgCarouselOne{
+    background-image: url(../../assets/2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+.layout{
+    height: 90vh;
+    background-color: rgba(32, 32, 116, 0.2);
+}
+.imgCarouselTwo{
+    background-image: url(../../assets/1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.caption{
+    font-size: 30px;
+    color: white;
+    align-items: center;
+}
+// end carousel
+/************************************************************/
+
+
+// media Query
+@media screen and (max-width: 575px) {
+.caption{
+    font-size: 17px;
+    padding-right: 40px !important;
+}
+
+}

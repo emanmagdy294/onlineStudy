@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+.directions {
+  float: right;
+  direction: rtl;
+  text-align: right;
+}
+
+.clr {
+  clear: both;
+}
+
+/**************************/
+.bgFooter {
+  background-color: #0A7AAA;
+  color: white;
+}
+
+.bgSection {
+  background-color: #e2e1e1;
+}
+
+.searchBox {
+  background-color: #0A7AAA;
+  border-radius: 15px;
+  color: white;
+  padding: 30px;
+  width: 100%;
+}
+
+.card {
+  cursor: pointer;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.card:hover {
+  -webkit-box-shadow: -5px 2px 54px -9px rgba(75, 75, 75, 0.3) !important;
+          box-shadow: -5px 2px 54px -9px rgba(75, 75, 75, 0.3) !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
